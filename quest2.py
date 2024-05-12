@@ -3,5 +3,7 @@ l,r,sum=0,1,0
 while(r<len(arr)):
     if arr[l]>arr[r]:
         sum+=arr[l]-arr[r]
+    else:
+        l=r
     r+=1
 print(sum)
